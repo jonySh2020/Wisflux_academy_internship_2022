@@ -1,0 +1,86 @@
+div.main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+nav.navbar{
+    background-color: cadetblue;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+
+main.main-doc{
+    text-align: justify;
+    border-width: 100px;
+    margin-left: 20px;
+
+}
+
+nav.navbar header{
+    font-size: x-large;
+    margin-bottom: 10px;
+    color:black;
+}
+
+nav.navbar a{
+    box-sizing: border-box;
+    margin: 10px;
+    color: white;
+    text-decoration: wavy;
+    text-shadow: 1px;
+    font-size: large;
+    position:static;
+
+}
+
+main.main-doc section header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: darkolivegreen;
+
+}
+
+main.main-doc section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+div.main-title{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: rgb(1, 91, 45);
+    border-bottom: 10px;
+    box-sizing: border-box;
+    min-height: 80px;
+    position: sticky;
+}
+
+
+div.main-title h1{
+    text-shadow: white;
+    margin-top: 20px;
+}
+
+nav.navbar a:hover{
+    color:skyblue;
+    font-weight: bold;
+}
+
+hr{
+    color: aqua;
+}
+
+table, th, td{
+   border: 1px solid;
+   border-collapse: collapse;
+}
+
+canvas#mycanvas{
+    width: 100px;
+    height: 80px;
+    background-color: rebeccapurple;
+    border: 10px inset brown;
+}
