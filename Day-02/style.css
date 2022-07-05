@@ -1,0 +1,62 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+
+.main-section header {
+  font-size: 24px;
+}
+
+header {
+  font-weight: bolder;
+}
+
+.main-section header{
+  color: #36B1BF;
+  text-align: center;
+}
+
+/* Navbar */
+
+nav ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+nav header{
+   color:black;
+   border-bottom: 2px solid white;
+   font-size: 24px;
+}
+
+#navbar {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  border-right: 5px solid #36B1BF;
+  background-color: #dc3eba;
+}
+
+/* Main area */
+
+#main-doc {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  right: 0;
+}
+
+.main-section {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
