@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-04Q2</title>
+    <style>
+      div#calculate {
+        width: max-content;
+        height: max-content;
+        background-color: gainsboro;
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 10%;
+      }
+    </style>
+    <script>
+      function mul() {
+        number1 = parseInt(document.querySelector("#num1").value);
+        number2 = parseInt(document.querySelector("#num2").value);
+        document.querySelector("#answer").innerHTML = number1 * number2;
+      }
+
+      function divide() {
+        number1 = parseInt(document.querySelector("#num1").value);
+        number2 = parseInt(document.querySelector("#num2").value);
+        if (number2 === 0) {
+          document.querySelector("#answer").innerHTML =
+            "<h4>* Second number cannot be zero.</h4>";
+          return 0;
+        }
+        document.querySelector("#answer").innerHTML = number1 / number2;
+      }
+    </script>
+  </head>
+  <body>
+    <div id="calculate">
+      <label for="#num1">1st Number :</label>
+      <input
+        type="number"
+        name="firstNum"
+        id="num1"
+        value=""
+        placeholder="First Number"
+        required
+      />
+      <br />
+      <br />
+      <label for="#num2">2nd Number :</label>
+      <input
+        type="number"
+        id="num2"
+        value=""
+        placeholder="Second Number"
+        required
+      />
+      <br />
+      <br />
+      <button id="multiplication" onclick="return mul()">Multiply</button>
+      <button id="division" onclick="return divide()">Divide</button>
+      <br />
+      The Result Is :
+      <div id="answer"></div>
+    </div>
+  </body>
+</html>
