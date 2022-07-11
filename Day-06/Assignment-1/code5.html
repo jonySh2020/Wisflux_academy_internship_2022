@@ -1,0 +1,22 @@
+<!-- Show a variable value in an HTML webpage using DOM? -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>code5</title>
+  </head>
+  <body>
+    <h1>Hello this is html page for the Day-06 code5.</h1>
+    <p>
+      see the console to see the value of variable myvar using javascript DOM
+    </p>
+    <div id="myvar" value="6"></div>
+  </body>
+  <script>
+    const myvar = document.getElementById("myvar");
+    console.log(myvar.getAttribute("value"));
+  </script>
+</html>
