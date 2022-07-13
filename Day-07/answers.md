@@ -3,7 +3,8 @@
 ###1. What are anonymous functions in JavaScript?\
 Answer- a function that have no name associated with it.\
 ex-\
-```function(arg){
+```
+function(arg){
 ...
 }
 ```
@@ -20,12 +21,15 @@ Answer-\
 differ in the syntax:\ 
 arrow functions are differ in syntax than a regular function\
 regular function syntax:\
-```  function function_name( arguments){
+```
+function function_name( arguments){
   ...//code
   }
+  
  ```
 arrow function syntax:\
-```  (arguments)=>{
+```
+(arguments)=>{
   ...//code
   }
 ```
@@ -50,7 +54,8 @@ arrow function syntax:\
 Answer- a variable can be used before it has been declared.\ 
 example : \
 
-```x = 5; // Assign 5 to x
+```
+x = 5; // Assign 5 to x
 
 console.log(x);    // Display value of x ( x=5)
 
@@ -62,7 +67,8 @@ To avoid bugs, always declare all variables at the beginning of every scope.\
 ###5. JavaScript is a garbage collected programming language, explain how?\
 Answer- Garbage collection is a process that is implemented automatically. Objects can be retained in memory while they are reachable.\
 Examples-// book has a reference to the object\
-```let book = {
+```
+let book = {
   name: "Javascript"
 };
 book = null;
@@ -80,7 +86,8 @@ there is no effect on other variable when change any of the variable.\
 Answer- This method freeze the object. A frozen object can no longer be changed; freezing an object prevents new properties from being added to it, existing properties from being removed, prevent change in writablity of existing properties.\
 freeze() returns the same object that was passed in.\
 example:\
-```const obj={
+```
+const obj={
 a:31
 };
 
