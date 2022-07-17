@@ -195,7 +195,7 @@ if(!id){
 }
 
 ToDo.map((ele)=>{
-  if(Math.floor(ele.id/10000000) === Math.floor(Number(id)/10000000)){
+  if(ele.id) === Number(id)){
     const temp =ele
 
     Completed.push(ele)
